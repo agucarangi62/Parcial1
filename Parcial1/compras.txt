@@ -1,0 +1,52 @@
+Insert compra
+Fecha: 2023-10-14
+Monto Gravado: 123
+IVA: 12
+Nro. Factura: 1
+Punto de venta: 2
+Proveedor: 6
+-----------------------------
+Insert compra
+Fecha: 2023-10-11
+Monto Gravado: 1
+IVA: 11
+Nro. Factura: 1
+Punto de venta: 1
+Proveedor: 5
+-----------------------------
+Insert compra
+Fecha: 2023-10-14
+Monto Gravado: 32
+IVA: 32
+Nro. Factura: 1
+Punto de venta: 1
+Proveedor: Optica Cristal
+-----------------------------
+Insert compra
+Fecha: 2023-10-11
+Monto Gravado: 1
+IVA: 1
+Nro. Factura: 1
+Punto de venta: 1
+Proveedor: Baima SA
+-----------------------------
+Update compra de Baima SA
+Fecha: 2023-10-13
+Monto Gravado: 10,00
+IVA: 21,00
+Nro. Factura: 2
+Punto de venta: 2
+Proveedor: Baima SA
+-----------------------------
+Delete
+Compra a Baima SA
+Fecha: 
+Monto Gravado: 
+IVA: 
+Nro. Factura: 
+-----------------------------
+Delete
+Compra a Optica Cristal
+Fecha: 30/8/2023 00:00:00
+Monto: 6666,00
+-----------------------------

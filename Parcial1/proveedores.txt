@@ -1,0 +1,18 @@
+Insert
+Proveedor: Bebidas
+CUIL: 2222
+-----------------------------
+Update a: Bebidas
+Nombre antes: Bebidas
+Nombre despues: Bebidas SRL
+-----------------------------
+Update a: Bebidas SRL
+Cuit antes: 2222
+Cuit despues: 22223
+-----------------------------
+Delete
+Proveedor: Bebidas SRL
+-----------------------------
+Delete
+Compra a Baima SA
+-----------------------------
