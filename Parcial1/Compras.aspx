@@ -76,7 +76,7 @@
             <br />
             <br />
         </div>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cadena %>" DeleteCommand="DELETE FROM [Compras] WHERE [id] = @id" InsertCommand="INSERT INTO [Compras] ([fecha], [montoGravado], [iva], [numeroFactura], [puntoVenta], [idProveedor]) VALUES (@fecha, @montoGravado, @iva, @numeroFactura, @puntoVenta, @idProveedor)" SelectCommand="SELECT Compras.id, Compras.fecha, Compras.montoGravado, Compras.iva, Compras.numeroFactura, Compras.puntoVenta, Compras.idProveedor, Proveedor.razonSocial FROM Compras INNER JOIN Proveedor ON Compras.idProveedor = Proveedor.id" UpdateCommand="UPDATE [Compras] SET [fecha] = @fecha, [montoGravado] = @montoGravado, [iva] = @iva, [numeroFactura] = @numeroFactura, [puntoVenta] = @puntoVenta, [idProveedor] = @idProveedor WHERE [id] = @id">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cadena %>" DeleteCommand="DELETE FROM [Compras] WHERE [id] = @id" InsertCommand="INSERT INTO [Compras] ([fecha], [montoGravado], [iva], [numeroFactura], [puntoVenta], [idProveedor]) VALUES (@fecha, @montoGravado, @iva, @numeroFactura, @puntoVenta, @idProveedor)" SelectCommand="SELECT Compras.id, Compras.fecha, Compras.montoGravado, Compras.iva, Compras.numeroFactura, Compras.puntoVenta, Compras.idProveedor, Proveedores.razonSocial FROM Compras INNER JOIN Proveedores ON Compras.idProveedor = Proveedores.id" UpdateCommand="UPDATE [Compras] SET [fecha] = @fecha, [montoGravado] = @montoGravado, [iva] = @iva, [numeroFactura] = @numeroFactura, [puntoVenta] = @puntoVenta, [idProveedor] = @idProveedor WHERE [id] = @id">
             <DeleteParameters>
                 <asp:Parameter Name="id" Type="Int32" />
             </DeleteParameters>
@@ -98,7 +98,8 @@
                 <asp:ControlParameter ControlID="GridView1" Name="id" PropertyName="SelectedValue" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:cadena %>" SelectCommand="SELECT * FROM [Proveedor]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:cadena %>" SelectCommand="SELECT * FROM [Proveedores]"></asp:SqlDataSource>
+        <br />
     </form>
 </body>
 </html>

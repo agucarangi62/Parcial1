@@ -53,7 +53,7 @@
             <br />
 
         </div>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cadena %>" DeleteCommand="DELETE FROM [Proveedor] WHERE [id] = @id" InsertCommand="INSERT INTO [Proveedor] ([razonSocial], [cuit]) VALUES (@razonSocial, @cuit)" ProviderName="<%$ ConnectionStrings:cadena.ProviderName %>" SelectCommand="SELECT * FROM [Proveedor]" UpdateCommand="UPDATE [Proveedor] SET [razonSocial] = @razonSocial, [cuit] = @cuit WHERE [id] = @id">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cadena %>" DeleteCommand="DELETE FROM [Proveedores] WHERE [id] = @id" InsertCommand="INSERT INTO [Proveedores] ([razonSocial], [cuit]) VALUES (@razonSocial, @cuit)" SelectCommand="SELECT * FROM [Proveedores]" UpdateCommand="UPDATE [Proveedores] SET [razonSocial] = @razonSocial, [cuit] = @cuit WHERE [id] = @id">
             <DeleteParameters>
                 <asp:Parameter Name="id" Type="Int32" />
             </DeleteParameters>

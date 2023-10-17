@@ -16,3 +16,64 @@ Proveedor: Bebidas SRL
 Delete
 Compra a Baima SA
 -----------------------------
+Insert
+Proveedor: Agustin
+CUIL: 41359822
+-----------------------------
+Update a: Agustin
+Nombre antes: Agustin
+Nombre despues: Agustiin
+Cuit antes: 41359822
+Cuit despues: 413598222
+-----------------------------
+Update a: Agustiin
+Nombre antes: Agustiin
+Nombre despues: Agustin
+-----------------------------
+Update a: Agustin
+Cuit antes: 413598222
+Cuit despues: 41359822
+-----------------------------
+Delete
+Proveedor: Agustin
+-----------------------------
+Insert
+Proveedor: Hilgert
+CUIL: 2231
+-----------------------------
+Update a: Hilgert
+Nombre antes: Hilgert
+Nombre despues: Hilgerta
+-----------------------------
+Update a: Hilgerta
+Cuit antes: 2231
+Cuit despues: 223144
+-----------------------------
+Update a: Hilgerta
+Nombre antes: Hilgerta
+Nombre despues: Hilgerta41
+Cuit antes: 223144
+Cuit despues: 22314441
+-----------------------------
+Delete
+Proveedor: Hilgerta41
+-----------------------------
+Insert
+Proveedor: Alimentos SA
+CUIL: 4123
+-----------------------------
+Insert
+Proveedor: JUGOS SFFS
+CUIL: 12332112312
+-----------------------------
+Insert
+Proveedor: Bebidas
+CUIL: 5553
+-----------------------------
+Update a: Bebidas
+Cuit antes: 5553
+Cuit despues: 55531
+-----------------------------
+Delete
+Proveedor: Bebidas
+-----------------------------

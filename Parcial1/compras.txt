@@ -50,3 +50,80 @@ Compra a Optica Cristal
 Fecha: 30/8/2023 00:00:00
 Monto: 6666,00
 -----------------------------
+Insert compra
+Fecha: 2023-10-14
+Monto Gravado: 44
+IVA: 1
+Nro. Factura: 2
+Punto de venta: 2
+Proveedor: Optica Cristal
+-----------------------------
+Update compra de Hilgert
+Fecha: 2023-10-14
+Monto Gravado: 44,00
+IVA: 1,00
+Nro. Factura: 2
+Punto de venta: 2
+Proveedor: Hilgert
+-----------------------------
+Delete
+Compra a Hilgert
+Fecha: 14/10/2023 00:00:00
+Monto: 44,00
+-----------------------------
+Insert compra
+Fecha: 2023-10-17
+Monto Gravado: 12
+IVA: 12
+Nro. Factura: 1
+Punto de venta: 1
+Proveedor: JUGOS SFFS
+-----------------------------
+Update compra de JUGOS SFFS
+Fecha: 2023-10-17
+Monto Gravado: 12,00
+IVA: 123,00
+Nro. Factura: 1
+Punto de venta: 1
+Proveedor: JUGOS SFFS
+-----------------------------
+Update compra de JUGOS SFFS
+Fecha: 2023-10-17
+Monto Gravado: 12442,00
+IVA: 123,00
+Nro. Factura: 1
+Punto de venta: 1
+Proveedor: JUGOS SFFS
+-----------------------------
+Insert compra
+Fecha: 2023-10-02
+Monto Gravado: 121
+IVA: 321
+Nro. Factura: 32
+Punto de venta: 4
+Proveedor: Alimentos SA
+-----------------------------
+Insert compra
+Fecha: 2023-10-03
+Monto Gravado: 123
+IVA: 123
+Nro. Factura: 123
+Punto de venta: 123
+Proveedor: JUGOS SFFS
+-----------------------------
+Update compra de JUGOS SFFS
+Fecha: 2023-10-02
+Monto Gravado: 123,00
+IVA: 123,00
+Nro. Factura: 123
+Punto de venta: 123
+Proveedor: JUGOS SFFS
+-----------------------------
+Insert compra
+Fecha: 2023-10-30
+Monto Gravado: 123
+IVA: 12
+Nro. Factura: 1
+Punto de venta: 1
+Proveedor: Alimentos SA
+-----------------------------
